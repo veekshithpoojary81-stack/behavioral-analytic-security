@@ -1,0 +1,38 @@
+user_id,login_time,status,location,device
+U001,2024-03-20 09:15:00,Success,London,MacBook Pro
+U001,2024-03-20 12:30:00,Success,London,MacBook Pro
+U002,2024-03-20 08:45:00,Success,New York,Dell Latitude
+U002,2024-03-20 17:10:00,Success,New York,Dell Latitude
+U003,2024-03-20 10:05:00,Success,Paris,iPhone 15
+U004,2024-03-20 11:20:00,Success,Tokyo,ThinkPad X1
+U001,2024-03-21 09:20:00,Success,London,MacBook Pro
+U002,2024-03-21 03:00:00,Failed,Moscow,Unknown Linux Device
+U002,2024-03-21 03:01:00,Failed,Moscow,Unknown Linux Device
+U002,2024-03-21 03:02:00,Failed,Moscow,Unknown Linux Device
+U002,2024-03-21 03:05:00,Success,Moscow,Unknown Linux Device
+U005,2024-03-21 14:00:00,Success,Berlin,iPad Air
+U005,2024-03-21 14:05:00,Success,Berlin,iPad Air
+U003,2024-03-22 03:00:00,Success,Paris,iPhone 15
+U001,2024-03-22 09:10:00,Success,London,MacBook Pro
+U001,2024-03-22 18:30:00,Success,London,New iMac 27
+U006,2024-03-22 10:00:00,Success,Sydney,HP EliteBook
+U006,2024-03-22 10:05:00,Failed,Sydney,HP EliteBook
+U006,2024-03-22 10:10:00,Failed,Sydney,HP EliteBook
+U006,2024-03-22 10:15:00,Failed,Sydney,HP EliteBook
+U006,2024-03-22 10:20:00,Failed,Sydney,HP EliteBook
+U006,2024-03-22 10:25:00,Failed,Sydney,HP EliteBook
+U007,2024-03-23 08:00:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:01:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:02:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:03:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:04:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:05:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:06:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:07:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:08:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:09:00,Success,Dubai,Surface Pro
+U007,2024-03-23 08:10:00,Success,Dubai,Surface Pro
+U001,2024-03-23 15:45:00,Success,London,MacBook Pro
+U008,2024-03-23 09:00:00,Success,Toronto,Dell XPS
+U009,2024-03-23 11:30:00,Success,Singapore,MacBook Air
+U010,2024-03-23 13:00:00,Success,Mumbai,Pixel 8

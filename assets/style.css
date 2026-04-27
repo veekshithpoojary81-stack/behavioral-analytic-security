@@ -1,0 +1,104 @@
+/* Behavioral Analytics for Energy Security - Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: #00e5ff;
+    --secondary-color: #7000ff;
+    --bg-dark: #0e1117;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+.stApp {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+}
+
+/* Custom Metric Cards */
+[data-testid="stMetricValue"] {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #888 !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-image: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+    border-right: 1px solid var(--glass-border);
+}
+
+/* Tab Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 20px;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: var(--card-bg);
+    border-radius: 8px 8px 0px 0px;
+    gap: 1px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid var(--glass-border);
+    border-bottom: none;
+    transition: all 0.3s ease;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: rgba(0, 229, 255, 0.1) !important;
+    border-top: 2px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+
+/* Glassmorphism for Dataframes and Plots */
+.stDataFrame, .js-plotly-plot {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    padding: 10px;
+    backdrop-filter: blur(10px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0e1117;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #484f58;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.main .block-container {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Status Badges (custom markdown classes if used) */
+.risk-critical { color: #ff4b4b; font-weight: bold; }
+.risk-high { color: #ffa500; font-weight: bold; }
+.risk-medium { color: #ffff00; font-weight: bold; }
+.risk-low { color: #00ff00; font-weight: bold; }
